@@ -1,0 +1,21 @@
+{
+  "name": "node-speakeasy-2fa-demo",
+  "version": "1.0.0",
+  "description": "Made following [Brad Traversy's tutorial](https://www.youtube.com/watch?v=KQya9i6czhM&t=180s) and paritally based of [this LogRocket article](https://blog.logrocket.com/implementing-two-factor-authentication-using-speakeasy/).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-json-db": "^1.1.0",
+    "speakeasy": "^2.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
